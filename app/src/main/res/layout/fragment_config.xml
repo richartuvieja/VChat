@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kuikos.vchat.fragments.ConfigFragment"
+    android:padding="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:contentPadding="10dp"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top">
+
+            <TextView
+                android:drawableLeft="@drawable/ic_bell_grey600_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Notificaciones"
+                android:textStyle="bold"
+                android:id="@+id/textView2"
+                android:textColor="@color/color_accent"
+                android:gravity="center_vertical"
+                android:drawablePadding="5dp"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3b000000"
+                android:layout_margin="7dp"></FrameLayout>
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Generales"
+                android:id="@+id/config_switch_generales"
+                android:padding="7dp"/>
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mensajes nuevos"
+                android:id="@+id/config_switch_mensajes"
+                android:padding="7dp"/>
+
+        </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

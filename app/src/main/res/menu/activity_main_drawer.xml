@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_message_processing_black_36dp"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ic_settings_black_36dp"
+            android:title="Configuración" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_circle_outline_black_36dp"
+            android:title="Ayuda" />
+</menu>

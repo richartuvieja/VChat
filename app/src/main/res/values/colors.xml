@@ -1,0 +1,22 @@
+<resources>
+    <color name="color_primaryLight">#60a4de</color>
+    <color name="color_primary">#2f84cc</color>
+    <color name="color_primaryDark">#2569a3</color>
+    <color name="color_accent">#0ebf5f</color>
+    <color name="color_accentDark">#0b8c46</color>
+
+    <color name="color_rojo">#fe5e41</color>
+    <color name="color_rojoDark">#da5138</color>
+
+    <color name="hombre">#2f84cc</color>
+    <color name="mujer">#ca6092</color>
+
+    <color name="random_1">#C62828</color>
+    <color name="random_2">#6A1B9A</color>
+    <color name="random_3">#0277BD</color>
+    <color name="random_4">#00BFA5</color>
+    <color name="random_5">#558B2F</color>
+    <color name="random_6">#9E9D24</color>
+    <color name="random_7">#EF6C00</color>
+    <color name="random_8">#D84315</color>
+</resources>
